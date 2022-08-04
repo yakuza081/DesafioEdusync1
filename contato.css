@@ -1,0 +1,230 @@
+:root{
+  --cinzae: #6c6969;
+  --cinzac: #7d7777;
+  --vinho: #660027;
+}
+/* CSS Body */
+
+body {
+  font-family: 'Roboto';
+  font-size: 0.875rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1160px;
+  margin: auto;
+}
+
+.listas ul {
+  display: flex;
+  gap: 28px;
+}
+
+.listas ul li a {
+  color: #000;
+}
+
+@media (max-width: 834px) {
+  .header {
+    width: 595px;
+  }
+}
+
+@media (max-width: 428px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: flex-start;
+  }
+
+  .listas ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+} 
+
+/* Css Contato Conteudo */
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .form-container {
+    width: 770px;
+    height: 700px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+  }
+  
+  .form-container h1 {
+    margin-top: 46px;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #660027;
+  }
+  
+  .form {
+    padding: 9px 171px 58px 189px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  
+  .form label {
+    font-size: 1.5rem;
+    color: #7B7676;
+  }
+  
+  .form input {
+    width: 400px;
+    height: 42px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+  }
+  
+  .form textarea {
+    width: 400px;
+    height: 125px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    margin-top: 34px;
+    width: 128px;
+    height: 42px;
+    background: #660027;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .container-ed {
+    width: 390px;
+    height: 700px;
+    background: #660027;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-ed2 p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  @media (max-width: 834px) {
+    .input {
+      width: 595px;
+    }
+  
+    .form-container {
+      width: 320px;
+    }
+  
+    .container-ed {
+      width: 256px;
+    }
+  
+    .form {
+      padding-right: 28px;
+      padding-left: 28px;
+    }
+  
+    .form label {
+      font-size: 0.875rem;
+    }
+  
+  
+    .form input {
+      width: 243px;
+    }
+  
+    .form textarea {
+      width: 243px;
+    }
+  
+    .container-ed2 p {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 428px) {
+    .input {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      width: 325px;
+    }
+  
+    .container-ed {
+      display: none;
+    }
+  
+  
+  }
+  /* Footer CSS */
+
+  .ed-footer {
+    margin-top: 70px;
+    height: 120px;
+    background: #660027;
+  }
+  
+  .footer-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .footer-conteudo p {
+    color: #fff;
+    line-height: 1px;
+  }
+  
+  .ed-footer-contato {
+    display: none;
+    margin-top: 70px;
+    height: 120px;
+    background: #660027;
+  }
+  
+  @media (max-width: 428px) {
+    .ed-footer-contato {
+      display: block;
+    }
+  } 
