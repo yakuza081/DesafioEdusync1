@@ -6,7 +6,7 @@
 /* CSS Body */
 
 body {
-  font-family: 'Roboto';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 0.875rem;
   padding: 0;
   margin: 0 auto;
@@ -47,7 +47,7 @@ a {
 }
 
 .listas ul li a {
-  color: #000;
+  color: black;
 }
 
 @media (max-width: 834px) {
@@ -82,7 +82,7 @@ a {
   .form-container {
     width: 770px;
     height: 700px;
-    border: 1px solid #660027;
+    border: 1px solid var(--vinho);
     border-radius: 4px;
   }
   
@@ -90,7 +90,7 @@ a {
     margin-top: 46px;
     text-align: center;
     font-size: 2.25rem;
-    color: #660027;
+    color: var(--vinho);
   }
   
   .form {
@@ -103,20 +103,20 @@ a {
   
   .form label {
     font-size: 1.5rem;
-    color: #7B7676;
+    color: var(--cinzac);
   }
   
   .form input {
     width: 400px;
     height: 42px;
-    border: 1px solid #660027;
+    border: 1px solid var(--vinho);
     border-radius: 4px;
   }
   
   .form textarea {
     width: 400px;
     height: 125px;
-    border: 1px solid #660027;
+    border: 1px solid var(--vinho);
     border-radius: 4px;
   }
   
@@ -124,8 +124,8 @@ a {
     margin-top: 34px;
     width: 128px;
     height: 42px;
-    background: #660027;
-    border: 2px solid #660027;
+    background: var(--vinho);
+    border: 2px solid var(--vinho);
     border-radius: 4px;
     color: #fff;
   }
@@ -133,8 +133,7 @@ a {
   .container-ed {
     width: 390px;
     height: 700px;
-    background: #660027;
-    display: flex;
+    background: var(--vinho);
     align-items: center;
     justify-content: center;
   }
@@ -142,7 +141,7 @@ a {
   .container-ed2 p {
     font-size: 1.4rem;
     text-align: center;
-    color: #fff;
+    color: white;
   }
   
   
@@ -201,7 +200,7 @@ a {
   .ed-footer {
     margin-top: 70px;
     height: 120px;
-    background: #660027;
+    background: var(--vinho);
   }
   
   .footer-conteudo {
@@ -212,7 +211,7 @@ a {
   }
   
   .footer-conteudo p {
-    color: #fff;
+    color: white;
     line-height: 1px;
   }
   
@@ -220,7 +219,7 @@ a {
     display: none;
     margin-top: 70px;
     height: 120px;
-    background: #660027;
+    background: var(--vinho);
   }
   
   @media (max-width: 428px) {
